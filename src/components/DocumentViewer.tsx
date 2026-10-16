@@ -11,7 +11,7 @@ import {
   ShareIcon,
   XMarkIcon,
   ExclamationTriangleIcon
-} from '@heroicons/react/24/outline'
+} from '@/lib/icons'
 import { DocumentMetadata, getIPFSUrl, canAccessDocument } from '@/lib/ipfs'
 import { useDocumentContent } from '@/hooks/useDocument'
 import { formatFileSize } from '@/lib/utils'

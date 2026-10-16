@@ -7,7 +7,7 @@ import {
   EyeSlashIcon,
   ExclamationTriangleIcon,
   InformationCircleIcon,
-} from '@heroicons/react/24/outline'
+} from '@/lib/icons'
 import { useUserData, useTreasuryProposals } from '@/hooks/useDAO'
 import { LoadError } from '@/components/LoadError'
 import { PageHeader } from '@/components/PageHeader'

@@ -84,23 +84,24 @@ Recorded from a production build on 2026-09-27.
 
 ### Where the bytes go
 
+> **Update (Issue #387):** `@heroicons/react` (39.1 KB / 2.5% share) was completely removed from the client bundle by migrating all usages to tree-shakeable `lucide-react` icons. This saves 39.1 KB raw (~10.8 KB gzip) with zero duplicate icon libraries shipped.
+
 | # | Package | Bytes | Share |
 | --- | --- | --- | --- |
 | 1 | `next` | 482.9 KB | 31.3% |
 | 2 | `@stellar/stellar-sdk` | 276.2 KB | 17.9% |
-| 3 | `@heroicons/react` | 39.1 KB | 2.5% |
-| 4 | `@tanstack/query-core` | 33.6 KB | 2.2% |
-| 5 | `tailwind-merge` | 26.2 KB | 1.7% |
-| 6 | `buffer` | 23.9 KB | 1.6% |
-| 7 | `bignumber.js` | 19.8 KB | 1.3% |
-| 8 | `@stellar/js-xdr` | 18.1 KB | 1.2% |
-| 9 | `lucide-react` | 11.8 KB | 0.8% |
-| 10 | `@noble/hashes` | 10.4 KB | 0.7% |
-| 11 | `@radix-ui/react-slot` | 9.3 KB | 0.6% |
-| 12 | `react-hot-toast` | 9.2 KB | 0.6% |
-| 13 | `@noble/ed25519` | 7.8 KB | 0.5% |
-| 14 | `@floating-ui/core` | 7.5 KB | 0.5% |
-| 15 | `@radix-ui/react-collection` | 7.0 KB | 0.5% |
+| 3 | `@tanstack/query-core` | 33.6 KB | 2.2% |
+| 4 | `tailwind-merge` | 26.2 KB | 1.7% |
+| 5 | `buffer` | 23.9 KB | 1.6% |
+| 6 | `bignumber.js` | 19.8 KB | 1.3% |
+| 7 | `@stellar/js-xdr` | 18.1 KB | 1.2% |
+| 8 | `lucide-react` | 11.8 KB | 0.8% |
+| 9 | `@noble/hashes` | 10.4 KB | 0.7% |
+| 10 | `@radix-ui/react-slot` | 9.3 KB | 0.6% |
+| 11 | `react-hot-toast` | 9.2 KB | 0.6% |
+| 12 | `@noble/ed25519` | 7.8 KB | 0.5% |
+| 13 | `@floating-ui/core` | 7.5 KB | 0.5% |
+| 14 | `@radix-ui/react-collection` | 7.0 KB | 0.5% |
 
 On top of those, 247.1 KB is first-party app code and 196.2 KB sits in files Turbopack does not map (listed at the bottom).
 

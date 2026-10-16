@@ -11,7 +11,7 @@ import {
   CurrencyDollarIcon,
   ArrowLeftIcon,
   CheckCircleIcon,
-} from '@heroicons/react/24/outline'
+} from '@/lib/icons'
 import { useDAOStats, useUserData, useMemberRegistration } from '@/hooks/useDAO'
 import { useRedirectIfMember } from '@/hooks/useRequireMember'
 import { formatToken } from '@/lib/utils'

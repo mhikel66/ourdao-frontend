@@ -40,6 +40,8 @@ What are the trade-offs and follow-up implications.
 | [ADR-005](ADR-005-mocking-boundary.md) | Mock at client boundary, not hook boundary |
 | [ADR-006](ADR-006-token-migration.md) | Token migration approach |
 | [ADR-007](ADR-007-pwa-installability.md) | Whether the app should be installable (open) |
+| [ADR-008](ADR-008-network-mismatch.md) | Network-mismatch behaviour — banner plus blocked writes |
+| [ADR-009](ADR-009-typescript-evaluation.md) | TypeScript 7 and @types/node Alignment Evaluation |
 
 ## Adding a new ADR
 

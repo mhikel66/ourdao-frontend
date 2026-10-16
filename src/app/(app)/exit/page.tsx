@@ -12,7 +12,7 @@ import {
   ExclamationTriangleIcon,
   InformationCircleIcon,
   CheckCircleIcon,
-} from '@heroicons/react/24/outline'
+} from '@/lib/icons'
 import { useUserData, useExitDao, useStake } from '@/hooks/useDAO'
 import { useRequireMember } from '@/hooks/useRequireMember'
 import { LoadError } from '@/components/LoadError'

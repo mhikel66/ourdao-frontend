@@ -14,7 +14,7 @@ import {
   CheckCircleIcon,
   ArrowUpRightIcon,
   TrophyIcon,
-} from '@heroicons/react/24/outline'
+} from '@/lib/icons'
 import { useDAOStats, useUserData, useRewards, useDAOEvents, eventLabel } from '@/hooks/useDAO'
 import { useRequireMember } from '@/hooks/useRequireMember'
 import { LoadError } from '@/components/LoadError'

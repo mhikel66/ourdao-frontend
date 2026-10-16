@@ -10,7 +10,7 @@ import {
   CheckCircleIcon,
   ExclamationTriangleIcon,
   DocumentIcon
-} from '@heroicons/react/24/outline'
+} from '@/lib/icons'
 import { useDAOStats, useUserData, useLoanRequest, useAttachDocument, useLoanTerms } from '@/hooks/useDAO'
 import { parseToken, formatToken, computeMaxLoan, formatThreshold, formatDuration } from '@/lib/utils'
 import dynamic from 'next/dynamic'

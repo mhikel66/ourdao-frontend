@@ -17,7 +17,7 @@ import {
   EyeSlashIcon,
   InformationCircleIcon,
   ExclamationTriangleIcon,
-} from '@heroicons/react/24/outline'
+} from '@/lib/icons'
 import { useUserData, useProposeTreasury } from '@/hooks/useDAO'
 import { parseToken } from '@/lib/utils'
 import { compactErrors, positiveTokenAmount, required, stellarAddress, type FieldError } from '@/lib/form-validation'

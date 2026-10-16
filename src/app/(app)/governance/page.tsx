@@ -19,7 +19,7 @@ import {
   CheckIcon,
   XMarkIcon,
   BanknotesIcon,
-} from '@heroicons/react/24/outline'
+} from '@/lib/icons'
 import {
   useUserData,
   useDAOStats,

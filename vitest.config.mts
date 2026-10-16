@@ -18,8 +18,10 @@ export default defineConfig({
     // raised so a slow CI runner/disk doesn't turn legitimate work into a
     // false timeout.
     testTimeout: 15000,
+    // Vitest 5: ensure native config loader compatibility (Issue #385)
+    configLoader: 'native',
     // Issue #240: coverage is measured per file with the V8 provider.
-    // The provider itself (@vitest/coverage-v8@4.1.11, pinned to the vitest
+    // The provider itself (@vitest/coverage-v8, pinned to the vitest
     // version) is installed in CI via `npm install --no-save` (see
     // .github/workflows/ci.yml) so `npm ci` stays lockfile-clean without a
     // local install step. Thresholds are intentionally at initial-adoption

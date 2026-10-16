@@ -8,7 +8,7 @@ import {
   EyeSlashIcon,
   LockClosedIcon,
   XMarkIcon
-} from '@heroicons/react/24/outline'
+} from '@/lib/icons'
 import { uploadMultipleDocuments, DocumentMetadata } from '@/lib/ipfs'
 import { formatFileSize } from '@/lib/utils'
 
